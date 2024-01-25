@@ -1,0 +1,9 @@
+package hello
+
+modules = Sha256
+
+depends = prelude, base, contrib
+executable = sha256_test
+sourcedir = "src"
+main = Main
+
